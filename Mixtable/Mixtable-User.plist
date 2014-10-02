@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserID</key>
+	<string></string>
+	<key>first_name</key>
+	<string></string>
+	<key>last_name</key>
+	<string></string>
+	<key>gender</key>
+	<string></string>
+	<key>phone</key>
+	<string></string>
+	<key>religion</key>
+	<string></string>
+	<key>state</key>
+	<string></string>
+	<key>height</key>
+	<string></string>
+	<key>target_age</key>
+	<string></string>
+	<key>target_venue</key>
+	<string></string>
+	<key>target_expectation</key>
+	<string></string>
+	<key>target_conversation</key>
+	<string></string>
+	<key>newsletter_accepted</key>
+	<string></string>
+	<key>preferred_languages</key>
+	<string></string>
+	<key>preferred_genders</key>
+	<string></string>
+	<key>occupations</key>
+	<string></string>
+	<key>education</key>
+	<string></string>
+	<key>status</key>
+	<string></string>
+	<key>email</key>
+	<string></string>
+	<key>city</key>
+	<string></string>
+	<key>firstTime</key>
+	<string></string>
+	<key>firstLogin</key>
+	<string></string>
+</dict>
+</plist>

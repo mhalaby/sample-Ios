@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MixtableTwitterPageURL</key>
+	<string>https://twitter.com/mixtable</string>
+	<key>MixtableFBPageID</key>
+	<string>510904482299488</string>
+	<key>MixtableContactEmail</key>
+	<string>hello@mixtable.com</string>
+	<key>MixtableContactNumber</key>
+	<string>+4989954570150</string>
+	<key>MixtableMixpicsURL</key>
+	<string>https://www.mixtable.com/en/mixpics</string>
+	<key>MixtableFAQURL</key>
+	<string>https://www.mixtable.com/en/faq</string>
+	<key>MixtableTnCsURL</key>
+	<string>https://www.mixtable.com/de/agb</string>
+	<key>MixtablePaymillActiveMode</key>
+	<string>test</string>
+	<key>MixtablePaymillPublicKey</key>
+	<string>356605762960f2a095772b0da5196a98</string>
+	<key>MixtablePaymentAmount</key>
+	<string>15</string>
+	<key>MixtableAPIUrl</key>
+	<string>http://mixtable-api.herokuapp.com</string>
+</dict>
+</plist>

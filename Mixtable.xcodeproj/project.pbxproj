@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D1B7A18F9A21E00E2A989 /* MixtableCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D1B7918F9A21E00E2A989 /* MixtableCity.m */; };
+		520D1B7D18F9A27800E2A989 /* MixtableCityDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D1B7C18F9A27800E2A989 /* MixtableCityDataManager.m */; };
+		5217A4F71853909500A9C5D5 /* MixtableBasicPreferencesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217A4F61853909500A9C5D5 /* MixtableBasicPreferencesCell.m */; };
+		5217A4FE185390A000A9C5D5 /* MixtableSegementedControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217A4FA185390A000A9C5D5 /* MixtableSegementedControlCell.m */; };
+		5217A4FF185390A000A9C5D5 /* MixtableSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217A4FC185390A000A9C5D5 /* MixtableSliderCell.m */; };
+		5217A502185393F400A9C5D5 /* MixtableDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217A501185393F400A9C5D5 /* MixtableDataManager.m */; };
+		524662B618F080600051150C /* Pref_Beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662AE18F080600051150C /* Pref_Beer@2x.png */; };
+		524662B718F080600051150C /* Pref_Bomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662AF18F080600051150C /* Pref_Bomb@2x.png */; };
+		524662B918F080600051150C /* Pref_Fussi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662B118F080600051150C /* Pref_Fussi@2x.png */; };
+		524662BA18F080600051150C /* Pref_Graduate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662B218F080600051150C /* Pref_Graduate@2x.png */; };
+		524662BB18F080600051150C /* Pref_Heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662B318F080600051150C /* Pref_Heart@2x.png */; };
+		524662BC18F080600051150C /* Pref_Ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662B418F080600051150C /* Pref_Ipad@2x.png */; };
+		524662BD18F080600051150C /* Pref_Martini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662B518F080600051150C /* Pref_Martini@2x.png */; };
+		524662BF18F19AF40051150C /* indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524662BE18F19AF40051150C /* indicator@2x.png */; };
+		5247B67E18EB5266007144EB /* Mixtable-Notifications-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5247B67C18EB5266007144EB /* Mixtable-Notifications-Config.plist */; };
+		5247B67F18EB5266007144EB /* Mixtable-Notifications.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5247B67D18EB5266007144EB /* Mixtable-Notifications.plist */; };
+		52645D1A18E4E99900634D1C /* MixtableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D1918E4E99900634D1C /* MixtableCell.m */; };
+		52C056B91842469B00CF07C6 /* MixtableAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C0569A1842469B00CF07C6 /* MixtableAPIClient.m */; };
+		52C056BA1842469B00CF07C6 /* MixtableContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C0569D1842469B00CF07C6 /* MixtableContactsViewController.m */; };
+		52C056BB1842469B00CF07C6 /* MixtableContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C0569E1842469B00CF07C6 /* MixtableContactsViewController.xib */; };
+		52C056BC1842469B00CF07C6 /* MixtableDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056A11842469B00CF07C6 /* MixtableDashboardViewController.m */; };
+		52C056BD1842469B00CF07C6 /* MixtableDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C056A21842469B00CF07C6 /* MixtableDashboardViewController.xib */; };
+		52C056BE1842469B00CF07C6 /* MixtableEventsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056A41842469B00CF07C6 /* MixtableEventsTableCell.m */; };
+		52C056BF1842469B00CF07C6 /* MixtableEventsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C056A51842469B00CF07C6 /* MixtableEventsTableCell.xib */; };
+		52C056C21842469B00CF07C6 /* MixtableNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056AC1842469B00CF07C6 /* MixtableNotificationsViewController.m */; };
+		52C056C31842469B00CF07C6 /* MixtableNotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C056AD1842469B00CF07C6 /* MixtableNotificationsViewController.xib */; };
+		52C056C41842469B00CF07C6 /* FPNavTitleSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056B01842469B00CF07C6 /* FPNavTitleSwipeView.m */; };
+		52C056D61843B36800CF07C6 /* MixtableModelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056D51843B36800CF07C6 /* MixtableModelBuilder.m */; };
+		52C056D91844098B00CF07C6 /* MixtableBooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056D81844098B00CF07C6 /* MixtableBooking.m */; };
+		52C056DC1844111F00CF07C6 /* MixtableBookingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C056DB1844111F00CF07C6 /* MixtableBookingDataManager.m */; };
+		52C14102183AC3870098FEC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C14101183AC3870098FEC9 /* Security.framework */; };
+		52C520EA18DB412B00010670 /* MixtablePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C520E918DB412B00010670 /* MixtablePayment.m */; };
+		52C520EE18DB434700010670 /* MixtablePaymentDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C520ED18DB434700010670 /* MixtablePaymentDataManager.m */; };
+		86106AE5190C144E003B4B6B /* MixtableConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86106AE4190C144E003B4B6B /* MixtableConfigManager.m */; };
+		86106AE9190C551A003B4B6B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86106AE8190C551A003B4B6B /* Reachability.m */; };
+		86110DD019033B6300578243 /* bg-iphone4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCA19033B6300578243 /* bg-iphone4.jpg */; };
+		86110DD119033B6300578243 /* bg-iphone5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCB19033B6300578243 /* bg-iphone5.jpg */; };
+		86110DD219033B6300578243 /* fb-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCC19033B6300578243 /* fb-box@2x.png */; };
+		86110DD319033B6300578243 /* grey-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCD19033B6300578243 /* grey-box@2x.png */; };
+		86110DD419033B6300578243 /* orange-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCE19033B6300578243 /* orange-box@2x.png */; };
+		86110DD519033B6300578243 /* twitter-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86110DCF19033B6300578243 /* twitter-box@2x.png */; };
+		861371D01839205F0083819D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861371CF1839205F0083819D /* QuartzCore.framework */; };
+		8616859F190832B9008D1DEF /* Pref_Fernseher_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8616859E190832B9008D1DEF /* Pref_Fernseher_new@2x.png */; };
+		86211243184BB5C4003CB4EF /* emai-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86211241184BB5C4003CB4EF /* emai-icon.png */; };
+		86211244184BB5C4003CB4EF /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86211242184BB5C4003CB4EF /* phone-icon.png */; };
+		86389B181865D74700F0AF51 /* MixtableEventsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 86389B171865D74700F0AF51 /* MixtableEventsFactory.m */; };
+		8641623F18CD394F007F5C14 /* MixtableCustomPickerControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641623E18CD394F007F5C14 /* MixtableCustomPickerControlCell.m */; };
+		8641624918CD39C3007F5C14 /* MixtableBasePrefrencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641624118CD39C3007F5C14 /* MixtableBasePrefrencesViewController.m */; };
+		8641624A18CD39C3007F5C14 /* MixtableMultiSegementedControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641624318CD39C3007F5C14 /* MixtableMultiSegementedControlCell.m */; };
+		8641624B18CD39C3007F5C14 /* MixtablePickerControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641624518CD39C3007F5C14 /* MixtablePickerControlCell.m */; };
+		8641624C18CD39C3007F5C14 /* V8HorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641624718CD39C3007F5C14 /* V8HorizontalPickerView.m */; };
+		8641624F18CD39E8007F5C14 /* MultiSelectSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641624E18CD39E8007F5C14 /* MultiSelectSegmentedControl.m */; };
+		864FF3FD184BEA7200CE051C /* MixtableBookingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FF3FB184BEA7200CE051C /* MixtableBookingDetailsViewController.m */; };
+		864FF3FE184BEA7200CE051C /* MixtableBookingDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864FF3FC184BEA7200CE051C /* MixtableBookingDetailsViewController.xib */; };
+		8651C19D1904B6310010007F /* MixtableBookingCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8651C19B1904B6310010007F /* MixtableBookingCancellationViewController.m */; };
+		8651C19E1904B6310010007F /* MixtableBookingCancellationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8651C19C1904B6310010007F /* MixtableBookingCancellationViewController.xib */; };
+		86588B4A1822614F005948F7 /* Cities-c7a963425318174ce68fb7ea7f3312c8.png in Resources */ = {isa = PBXBuildFile; fileRef = 86588B491822614F005948F7 /* Cities-c7a963425318174ce68fb7ea7f3312c8.png */; };
+		8658A8F118EA0E6E005FE5DB /* twitter-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658A8F018EA0E6E005FE5DB /* twitter-icon@2x.png */; };
+		8658A8F318EA0E79005FE5DB /* fb-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658A8F218EA0E79005FE5DB /* fb-icon@2x.png */; };
+		8658A8F518EA0FDA005FE5DB /* Notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658A8F418EA0FDA005FE5DB /* Notification.png */; };
+		865F15FF183AE0D100857878 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865F15FE183AE0D100857878 /* FacebookSDK.framework */; };
+		866B4E861860EBC70059DAFF /* PMCreditCardTypeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E851860EBC70059DAFF /* PMCreditCardTypeParser.m */; };
+		866B4E931860EC090059DAFF /* MixtablePaymentCardHolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E881860EC090059DAFF /* MixtablePaymentCardHolderCell.m */; };
+		866B4E941860EC090059DAFF /* MixtablePaymentCardHolderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866B4E891860EC090059DAFF /* MixtablePaymentCardHolderCell.xib */; };
+		866B4E951860EC090059DAFF /* MixtablePaymentCardNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E8B1860EC090059DAFF /* MixtablePaymentCardNumberCell.m */; };
+		866B4E961860EC090059DAFF /* MixtablePaymentCardNumberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866B4E8C1860EC090059DAFF /* MixtablePaymentCardNumberCell.xib */; };
+		866B4E971860EC090059DAFF /* MixtablePaymentCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E8E1860EC090059DAFF /* MixtablePaymentCodeCell.m */; };
+		866B4E981860EC090059DAFF /* MixtablePaymentCodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866B4E8F1860EC090059DAFF /* MixtablePaymentCodeCell.xib */; };
+		866B4E991860EC090059DAFF /* MixtablePaymentExpireDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E911860EC090059DAFF /* MixtablePaymentExpireDateCell.m */; };
+		866B4E9A1860EC090059DAFF /* MixtablePaymentExpireDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866B4E921860EC090059DAFF /* MixtablePaymentExpireDateCell.xib */; };
+		866B4EA01860EC280059DAFF /* MixtablePaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E9C1860EC280059DAFF /* MixtablePaymentManager.m */; };
+		866B4EA11860EC280059DAFF /* MixtablePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B4E9E1860EC280059DAFF /* MixtablePaymentViewController.m */; };
+		866B4EA21860EC280059DAFF /* MixtablePaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866B4E9F1860EC280059DAFF /* MixtablePaymentViewController.xib */; };
+		866B4EA61860ED5C0059DAFF /* PayMillSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 866B4EA41860ED5C0059DAFF /* PayMillSDK.bundle */; };
+		866B4EA71860ED5C0059DAFF /* PayMillSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866B4EA51860ED5C0059DAFF /* PayMillSDK.framework */; };
+		866C8B111906C368001662EA /* city-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866C8B101906C368001662EA /* city-arrow@2x.png */; };
+		866C8B151906C4D2001662EA /* MixtableCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866C8B131906C4D2001662EA /* MixtableCityViewController.m */; };
+		866C8B161906C4D2001662EA /* MixtableCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866C8B141906C4D2001662EA /* MixtableCityViewController.xib */; };
+		867689BA184FED36007810B7 /* Mixtable-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867689B9184FED36007810B7 /* Mixtable-Config.plist */; };
+		8682FACE18D5030300F9D3B7 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682FACD18D5030300F9D3B7 /* UIImage+ImageEffects.m */; };
+		8682FAD818D5315F00F9D3B7 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8682FAD718D5315F00F9D3B7 /* menu-icon@2x.png */; };
+		8682FAEE18D5550000F9D3B7 /* MixtableFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682FAEC18D5550000F9D3B7 /* MixtableFAQViewController.m */; };
+		8682FAEF18D5550000F9D3B7 /* MixtableFAQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8682FAED18D5550000F9D3B7 /* MixtableFAQViewController.xib */; };
+		8682FAF318D5556A00F9D3B7 /* MixtableMixPixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682FAF118D5556A00F9D3B7 /* MixtableMixPixViewController.m */; };
+		8682FAF418D5556A00F9D3B7 /* MixtableMixPixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8682FAF218D5556A00F9D3B7 /* MixtableMixPixViewController.xib */; };
+		8682FAFA18D564D900F9D3B7 /* Mixtable-User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8682FAF918D564D900F9D3B7 /* Mixtable-User.plist */; };
+		8686A1FC181C6DA000D29EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686A1FB181C6DA000D29EF7 /* UIKit.framework */; };
+		8686A1FE181C6DA000D29EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686A1FD181C6DA000D29EF7 /* Foundation.framework */; };
+		8686A200181C6DA000D29EF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686A1FF181C6DA000D29EF7 /* CoreGraphics.framework */; };
+		8686A206181C6DA000D29EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8686A204181C6DA000D29EF7 /* InfoPlist.strings */; };
+		8686A208181C6DA000D29EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686A207181C6DA000D29EF7 /* main.m */; };
+		8686A20C181C6DA000D29EF7 /* MixtableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686A20B181C6DA000D29EF7 /* MixtableAppDelegate.m */; };
+		8686A20E181C6DA000D29EF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8686A20D181C6DA000D29EF7 /* Default.png */; };
+		8686A210181C6DA000D29EF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8686A20F181C6DA000D29EF7 /* Default@2x.png */; };
+		8686A212181C6DA000D29EF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8686A211181C6DA000D29EF7 /* Default-568h@2x.png */; };
+		8686A215181C6DA000D29EF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8686A213181C6DA000D29EF7 /* MainStoryboard.storyboard */; };
+		868E0432184A4CA40029B220 /* MixtablePersonalSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E0430184A4CA40029B220 /* MixtablePersonalSettingsViewController.m */; };
+		868E0433184A4CA40029B220 /* MixtablePersonalSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868E0431184A4CA40029B220 /* MixtablePersonalSettingsViewController.xib */; };
+		868E0437184A4E7E0029B220 /* MixtableMixingSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E0435184A4E7E0029B220 /* MixtableMixingSettingsViewController.m */; };
+		868E0438184A4E7E0029B220 /* MixtableMixingSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868E0436184A4E7E0029B220 /* MixtableMixingSettingsViewController.xib */; };
+		868E043C184A596F0029B220 /* MixtableBasicSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E043A184A596F0029B220 /* MixtableBasicSettingsViewController.m */; };
+		868E043D184A596F0029B220 /* MixtableBasicSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868E043B184A596F0029B220 /* MixtableBasicSettingsViewController.xib */; };
+		868E0444184AC15E0029B220 /* swipe-slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 868E0442184AC15D0029B220 /* swipe-slider.png */; };
+		868E0445184AC15E0029B220 /* swipe-rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 868E0443184AC15E0029B220 /* swipe-rect.png */; };
+		868F90201908B8FF003DEECC /* Mixtable-UserBookings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868F901F1908B8FF003DEECC /* Mixtable-UserBookings.plist */; };
+		869A3041184804020086CEAA /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869A303E184803F30086CEAA /* Nunito-Bold.ttf */; };
+		869A3042184804020086CEAA /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869A303F184803F30086CEAA /* Nunito-Light.ttf */; };
+		869A3043184804020086CEAA /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869A3040184803F30086CEAA /* Nunito-Regular.ttf */; };
+		86AB543B190AC3C100D99D1D /* paymill-signet-RGB-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB543A190AC3C100D99D1D /* paymill-signet-RGB-orange.png */; };
+		86B8D52518DD2824000B6C12 /* Mixtable-CardsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86B8D52418DD2824000B6C12 /* Mixtable-CardsData.plist */; };
+		86B8D52718DD2CB3000B6C12 /* Mixtable-Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86B8D52618DD2CB3000B6C12 /* Mixtable-Cities.plist */; };
+		86B8D52E18DD48AD000B6C12 /* MixtableInvitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8D52C18DD48AD000B6C12 /* MixtableInvitationViewController.m */; };
+		86B8D52F18DD48AD000B6C12 /* MixtableInvitationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B8D52D18DD48AD000B6C12 /* MixtableInvitationViewController.xib */; };
+		86CD4B751845123800D7A2DA /* MixtableNSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CD4B741845123800D7A2DA /* MixtableNSDateHelper.m */; };
+		86D164111842946C008544D3 /* MixtableUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D164101842946C008544D3 /* MixtableUser.m */; };
+		86D1641718429537008544D3 /* MixtableUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D1641618429537008544D3 /* MixtableUserDataManager.m */; };
+		86D164211842962D008544D3 /* MixtableMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D1641D1842962D008544D3 /* MixtableMenuViewController.m */; };
+		86D164221842962D008544D3 /* MixtableMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D1641E1842962D008544D3 /* MixtableMenuViewController.xib */; };
+		86D164231842962D008544D3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D164201842962D008544D3 /* SWRevealViewController.m */; };
+		86D1642A184296F1008544D3 /* MixtableFBLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D16426184296F1008544D3 /* MixtableFBLoginManager.m */; };
+		86D1642B184296F1008544D3 /* MixtableLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D16428184296F1008544D3 /* MixtableLoginViewController.m */; };
+		86D1642C184296F1008544D3 /* MixtableLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D16429184296F1008544D3 /* MixtableLoginViewController.xib */; };
+		86D1643018429B6D008544D3 /* MixtableSwipeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D1642E18429B6D008544D3 /* MixtableSwipeNavViewController.m */; };
+		86D1643118429B6D008544D3 /* MixtableSwipeNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D1642F18429B6D008544D3 /* MixtableSwipeNavViewController.xib */; };
+		86D2AC20185E4EFF005385EA /* MixtableTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D2AC1E185E4EFF005385EA /* MixtableTutorialViewController.m */; };
+		86D2AC21185E4EFF005385EA /* MixtableTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC1F185E4EFF005385EA /* MixtableTutorialViewController.xib */; };
+		86D2AC24185E53C9005385EA /* tutorial-intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC23185E53C9005385EA /* tutorial-intro.png */; };
+		86D2AC26185E5638005385EA /* tutorial-title-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC25185E5637005385EA /* tutorial-title-bg.png */; };
+		86D2AC28185E5736005385EA /* tutorial-date.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC27185E5736005385EA /* tutorial-date.png */; };
+		86D2AC2D185E5891005385EA /* tutorial-cal.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC29185E5891005385EA /* tutorial-cal.png */; };
+		86D2AC2E185E5891005385EA /* tutorial-glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC2A185E5891005385EA /* tutorial-glasses.png */; };
+		86D2AC2F185E5891005385EA /* tutorial-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC2B185E5891005385EA /* tutorial-map.png */; };
+		86D2AC30185E5891005385EA /* tutorial-mates.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC2C185E5891005385EA /* tutorial-mates.png */; };
+		86D2AC32185E6563005385EA /* landing-fb-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC31185E6563005385EA /* landing-fb-login.png */; };
+		86D2AC36185E6722005385EA /* MixtableTutorialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D2AC34185E6722005385EA /* MixtableTutorialPageViewController.m */; };
+		86D2AC37185E6722005385EA /* MixtableTutorialPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC35185E6722005385EA /* MixtableTutorialPageViewController.xib */; };
+		86D2AC3C185E6F30005385EA /* MixtableTermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D2AC3A185E6F30005385EA /* MixtableTermsViewController.m */; };
+		86D2AC3D185E6F30005385EA /* MixtableTermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC3B185E6F30005385EA /* MixtableTermsViewController.xib */; };
+		86D2AC41185E79DA005385EA /* app-icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC3E185E79DA005385EA /* app-icon-settings.png */; };
+		86D2AC42185E79DA005385EA /* app-icon-spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC3F185E79DA005385EA /* app-icon-spotlight.png */; };
+		86D2AC43185E79DA005385EA /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D2AC40185E79DA005385EA /* app-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520D1B7818F9A21E00E2A989 /* MixtableCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableCity.h; sourceTree = "<group>"; };
+		520D1B7918F9A21E00E2A989 /* MixtableCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableCity.m; sourceTree = "<group>"; };
+		520D1B7B18F9A27800E2A989 /* MixtableCityDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableCityDataManager.h; sourceTree = "<group>"; };
+		520D1B7C18F9A27800E2A989 /* MixtableCityDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableCityDataManager.m; sourceTree = "<group>"; };
+		5217A4F51853909500A9C5D5 /* MixtableBasicPreferencesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBasicPreferencesCell.h; sourceTree = "<group>"; };
+		5217A4F61853909500A9C5D5 /* MixtableBasicPreferencesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBasicPreferencesCell.m; sourceTree = "<group>"; };
+		5217A4F9185390A000A9C5D5 /* MixtableSegementedControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableSegementedControlCell.h; sourceTree = "<group>"; };
+		5217A4FA185390A000A9C5D5 /* MixtableSegementedControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableSegementedControlCell.m; sourceTree = "<group>"; };
+		5217A4FB185390A000A9C5D5 /* MixtableSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableSliderCell.h; sourceTree = "<group>"; };
+		5217A4FC185390A000A9C5D5 /* MixtableSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableSliderCell.m; sourceTree = "<group>"; };
+		5217A500185393F400A9C5D5 /* MixtableDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableDataManager.h; sourceTree = "<group>"; };
+		5217A501185393F400A9C5D5 /* MixtableDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableDataManager.m; sourceTree = "<group>"; };
+		524662AE18F080600051150C /* Pref_Beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Beer@2x.png"; sourceTree = "<group>"; };
+		524662AF18F080600051150C /* Pref_Bomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Bomb@2x.png"; sourceTree = "<group>"; };
+		524662B118F080600051150C /* Pref_Fussi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Fussi@2x.png"; sourceTree = "<group>"; };
+		524662B218F080600051150C /* Pref_Graduate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Graduate@2x.png"; sourceTree = "<group>"; };
+		524662B318F080600051150C /* Pref_Heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Heart@2x.png"; sourceTree = "<group>"; };
+		524662B418F080600051150C /* Pref_Ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Ipad@2x.png"; sourceTree = "<group>"; };
+		524662B518F080600051150C /* Pref_Martini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Martini@2x.png"; sourceTree = "<group>"; };
+		524662BE18F19AF40051150C /* indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator@2x.png"; sourceTree = "<group>"; };
+		5247B67C18EB5266007144EB /* Mixtable-Notifications-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-Notifications-Config.plist"; sourceTree = "<group>"; };
+		5247B67D18EB5266007144EB /* Mixtable-Notifications.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-Notifications.plist"; sourceTree = "<group>"; };
+		52645D1818E4E99900634D1C /* MixtableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableCell.h; sourceTree = "<group>"; };
+		52645D1918E4E99900634D1C /* MixtableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableCell.m; sourceTree = "<group>"; };
+		52C056991842469B00CF07C6 /* MixtableAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableAPIClient.h; sourceTree = "<group>"; };
+		52C0569A1842469B00CF07C6 /* MixtableAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableAPIClient.m; sourceTree = "<group>"; };
+		52C0569C1842469B00CF07C6 /* MixtableContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableContactsViewController.h; sourceTree = "<group>"; };
+		52C0569D1842469B00CF07C6 /* MixtableContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableContactsViewController.m; sourceTree = "<group>"; };
+		52C0569E1842469B00CF07C6 /* MixtableContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableContactsViewController.xib; sourceTree = "<group>"; };
+		52C056A01842469B00CF07C6 /* MixtableDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableDashboardViewController.h; sourceTree = "<group>"; };
+		52C056A11842469B00CF07C6 /* MixtableDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableDashboardViewController.m; sourceTree = "<group>"; };
+		52C056A21842469B00CF07C6 /* MixtableDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableDashboardViewController.xib; sourceTree = "<group>"; };
+		52C056A31842469B00CF07C6 /* MixtableEventsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableEventsTableCell.h; sourceTree = "<group>"; };
+		52C056A41842469B00CF07C6 /* MixtableEventsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableEventsTableCell.m; sourceTree = "<group>"; };
+		52C056A51842469B00CF07C6 /* MixtableEventsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableEventsTableCell.xib; sourceTree = "<group>"; };
+		52C056AB1842469B00CF07C6 /* MixtableNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableNotificationsViewController.h; sourceTree = "<group>"; };
+		52C056AC1842469B00CF07C6 /* MixtableNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableNotificationsViewController.m; sourceTree = "<group>"; };
+		52C056AD1842469B00CF07C6 /* MixtableNotificationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableNotificationsViewController.xib; sourceTree = "<group>"; };
+		52C056AF1842469B00CF07C6 /* FPNavTitleSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPNavTitleSwipeView.h; sourceTree = "<group>"; };
+		52C056B01842469B00CF07C6 /* FPNavTitleSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPNavTitleSwipeView.m; sourceTree = "<group>"; };
+		52C056D21843AE6B00CF07C6 /* MixtableAPIClientDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixtableAPIClientDelegate.h; sourceTree = "<group>"; };
+		52C056D31843B2B600CF07C6 /* MixtableUserDataManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixtableUserDataManagerDelegate.h; sourceTree = "<group>"; };
+		52C056D41843B36800CF07C6 /* MixtableModelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableModelBuilder.h; sourceTree = "<group>"; };
+		52C056D51843B36800CF07C6 /* MixtableModelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableModelBuilder.m; sourceTree = "<group>"; };
+		52C056D71844098A00CF07C6 /* MixtableBooking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBooking.h; sourceTree = "<group>"; };
+		52C056D81844098B00CF07C6 /* MixtableBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBooking.m; sourceTree = "<group>"; };
+		52C056DA1844111F00CF07C6 /* MixtableBookingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBookingDataManager.h; sourceTree = "<group>"; };
+		52C056DB1844111F00CF07C6 /* MixtableBookingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBookingDataManager.m; sourceTree = "<group>"; };
+		52C056DD184411A300CF07C6 /* MixtableBookingDataManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixtableBookingDataManagerDelegate.h; sourceTree = "<group>"; };
+		52C14101183AC3870098FEC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52C14103183AC3920098FEC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52C520E818DB412B00010670 /* MixtablePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePayment.h; sourceTree = "<group>"; };
+		52C520E918DB412B00010670 /* MixtablePayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePayment.m; sourceTree = "<group>"; };
+		52C520EB18DB42EB00010670 /* MixtablePaymentDataManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentDataManagerDelegate.h; sourceTree = "<group>"; };
+		52C520EC18DB434700010670 /* MixtablePaymentDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentDataManager.h; sourceTree = "<group>"; };
+		52C520ED18DB434700010670 /* MixtablePaymentDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentDataManager.m; sourceTree = "<group>"; };
+		86106AE3190C144E003B4B6B /* MixtableConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableConfigManager.h; sourceTree = "<group>"; };
+		86106AE4190C144E003B4B6B /* MixtableConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableConfigManager.m; sourceTree = "<group>"; };
+		86106AE7190C551A003B4B6B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		86106AE8190C551A003B4B6B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		86110DCA19033B6300578243 /* bg-iphone4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-iphone4.jpg"; sourceTree = "<group>"; };
+		86110DCB19033B6300578243 /* bg-iphone5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-iphone5.jpg"; sourceTree = "<group>"; };
+		86110DCC19033B6300578243 /* fb-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-box@2x.png"; sourceTree = "<group>"; };
+		86110DCD19033B6300578243 /* grey-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey-box@2x.png"; sourceTree = "<group>"; };
+		86110DCE19033B6300578243 /* orange-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-box@2x.png"; sourceTree = "<group>"; };
+		86110DCF19033B6300578243 /* twitter-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-box@2x.png"; sourceTree = "<group>"; };
+		861371CF1839205F0083819D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8616859E190832B9008D1DEF /* Pref_Fernseher_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pref_Fernseher_new@2x.png"; sourceTree = "<group>"; };
+		86211241184BB5C4003CB4EF /* emai-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emai-icon.png"; sourceTree = "<group>"; };
+		86211242184BB5C4003CB4EF /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
+		86389B161865D74700F0AF51 /* MixtableEventsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableEventsFactory.h; sourceTree = "<group>"; };
+		86389B171865D74700F0AF51 /* MixtableEventsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableEventsFactory.m; sourceTree = "<group>"; };
+		8641623D18CD394F007F5C14 /* MixtableCustomPickerControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableCustomPickerControlCell.h; sourceTree = "<group>"; };
+		8641623E18CD394F007F5C14 /* MixtableCustomPickerControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableCustomPickerControlCell.m; sourceTree = "<group>"; };
+		8641624018CD39C3007F5C14 /* MixtableBasePrefrencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBasePrefrencesViewController.h; sourceTree = "<group>"; };
+		8641624118CD39C3007F5C14 /* MixtableBasePrefrencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBasePrefrencesViewController.m; sourceTree = "<group>"; };
+		8641624218CD39C3007F5C14 /* MixtableMultiSegementedControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableMultiSegementedControlCell.h; sourceTree = "<group>"; };
+		8641624318CD39C3007F5C14 /* MixtableMultiSegementedControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableMultiSegementedControlCell.m; sourceTree = "<group>"; };
+		8641624418CD39C3007F5C14 /* MixtablePickerControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePickerControlCell.h; sourceTree = "<group>"; };
+		8641624518CD39C3007F5C14 /* MixtablePickerControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePickerControlCell.m; sourceTree = "<group>"; };
+		8641624618CD39C3007F5C14 /* V8HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerView.h; sourceTree = "<group>"; };
+		8641624718CD39C3007F5C14 /* V8HorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V8HorizontalPickerView.m; sourceTree = "<group>"; };
+		8641624818CD39C3007F5C14 /* V8HorizontalPickerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerViewProtocol.h; sourceTree = "<group>"; };
+		8641624D18CD39E8007F5C14 /* MultiSelectSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectSegmentedControl.h; sourceTree = "<group>"; };
+		8641624E18CD39E8007F5C14 /* MultiSelectSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectSegmentedControl.m; sourceTree = "<group>"; };
+		864FF3FA184BEA7200CE051C /* MixtableBookingDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBookingDetailsViewController.h; sourceTree = "<group>"; };
+		864FF3FB184BEA7200CE051C /* MixtableBookingDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBookingDetailsViewController.m; sourceTree = "<group>"; };
+		864FF3FC184BEA7200CE051C /* MixtableBookingDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableBookingDetailsViewController.xib; sourceTree = "<group>"; };
+		8651C19A1904B6310010007F /* MixtableBookingCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBookingCancellationViewController.h; sourceTree = "<group>"; };
+		8651C19B1904B6310010007F /* MixtableBookingCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBookingCancellationViewController.m; sourceTree = "<group>"; };
+		8651C19C1904B6310010007F /* MixtableBookingCancellationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableBookingCancellationViewController.xib; sourceTree = "<group>"; };
+		86588B491822614F005948F7 /* Cities-c7a963425318174ce68fb7ea7f3312c8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cities-c7a963425318174ce68fb7ea7f3312c8.png"; sourceTree = "<group>"; };
+		8658A8F018EA0E6E005FE5DB /* twitter-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-icon@2x.png"; sourceTree = "<group>"; };
+		8658A8F218EA0E79005FE5DB /* fb-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-icon@2x.png"; sourceTree = "<group>"; };
+		8658A8F418EA0FDA005FE5DB /* Notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notification.png; sourceTree = "<group>"; };
+		865F15FE183AE0D100857878 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		866B4E841860EBC70059DAFF /* PMCreditCardTypeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCreditCardTypeParser.h; sourceTree = "<group>"; };
+		866B4E851860EBC70059DAFF /* PMCreditCardTypeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCreditCardTypeParser.m; sourceTree = "<group>"; };
+		866B4E871860EC090059DAFF /* MixtablePaymentCardHolderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentCardHolderCell.h; sourceTree = "<group>"; };
+		866B4E881860EC090059DAFF /* MixtablePaymentCardHolderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentCardHolderCell.m; sourceTree = "<group>"; };
+		866B4E891860EC090059DAFF /* MixtablePaymentCardHolderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePaymentCardHolderCell.xib; sourceTree = "<group>"; };
+		866B4E8A1860EC090059DAFF /* MixtablePaymentCardNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentCardNumberCell.h; sourceTree = "<group>"; };
+		866B4E8B1860EC090059DAFF /* MixtablePaymentCardNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentCardNumberCell.m; sourceTree = "<group>"; };
+		866B4E8C1860EC090059DAFF /* MixtablePaymentCardNumberCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePaymentCardNumberCell.xib; sourceTree = "<group>"; };
+		866B4E8D1860EC090059DAFF /* MixtablePaymentCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentCodeCell.h; sourceTree = "<group>"; };
+		866B4E8E1860EC090059DAFF /* MixtablePaymentCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentCodeCell.m; sourceTree = "<group>"; };
+		866B4E8F1860EC090059DAFF /* MixtablePaymentCodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePaymentCodeCell.xib; sourceTree = "<group>"; };
+		866B4E901860EC090059DAFF /* MixtablePaymentExpireDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentExpireDateCell.h; sourceTree = "<group>"; };
+		866B4E911860EC090059DAFF /* MixtablePaymentExpireDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentExpireDateCell.m; sourceTree = "<group>"; };
+		866B4E921860EC090059DAFF /* MixtablePaymentExpireDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePaymentExpireDateCell.xib; sourceTree = "<group>"; };
+		866B4E9B1860EC270059DAFF /* MixtablePaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentManager.h; sourceTree = "<group>"; };
+		866B4E9C1860EC280059DAFF /* MixtablePaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentManager.m; sourceTree = "<group>"; };
+		866B4E9D1860EC280059DAFF /* MixtablePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePaymentViewController.h; sourceTree = "<group>"; };
+		866B4E9E1860EC280059DAFF /* MixtablePaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePaymentViewController.m; sourceTree = "<group>"; };
+		866B4E9F1860EC280059DAFF /* MixtablePaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePaymentViewController.xib; sourceTree = "<group>"; };
+		866B4EA41860ED5C0059DAFF /* PayMillSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PayMillSDK.bundle; sourceTree = "<group>"; };
+		866B4EA51860ED5C0059DAFF /* PayMillSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayMillSDK.framework; sourceTree = "<group>"; };
+		866C8B101906C368001662EA /* city-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-arrow@2x.png"; sourceTree = "<group>"; };
+		866C8B121906C4D2001662EA /* MixtableCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableCityViewController.h; sourceTree = "<group>"; };
+		866C8B131906C4D2001662EA /* MixtableCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableCityViewController.m; sourceTree = "<group>"; };
+		866C8B141906C4D2001662EA /* MixtableCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableCityViewController.xib; sourceTree = "<group>"; };
+		867689B9184FED36007810B7 /* Mixtable-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-Config.plist"; sourceTree = "<group>"; };
+		8682FACC18D5030300F9D3B7 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8682FACD18D5030300F9D3B7 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8682FAD718D5315F00F9D3B7 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		8682FAEB18D5550000F9D3B7 /* MixtableFAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableFAQViewController.h; sourceTree = "<group>"; };
+		8682FAEC18D5550000F9D3B7 /* MixtableFAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableFAQViewController.m; sourceTree = "<group>"; };
+		8682FAED18D5550000F9D3B7 /* MixtableFAQViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableFAQViewController.xib; sourceTree = "<group>"; };
+		8682FAF018D5556A00F9D3B7 /* MixtableMixPixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableMixPixViewController.h; sourceTree = "<group>"; };
+		8682FAF118D5556A00F9D3B7 /* MixtableMixPixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableMixPixViewController.m; sourceTree = "<group>"; };
+		8682FAF218D5556A00F9D3B7 /* MixtableMixPixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableMixPixViewController.xib; sourceTree = "<group>"; };
+		8682FAF918D564D900F9D3B7 /* Mixtable-User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-User.plist"; sourceTree = "<group>"; };
+		8686A1F8181C6DA000D29EF7 /* Mixtable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixtable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8686A1FB181C6DA000D29EF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8686A1FD181C6DA000D29EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8686A1FF181C6DA000D29EF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8686A203181C6DA000D29EF7 /* Mixtable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mixtable-Info.plist"; sourceTree = "<group>"; };
+		8686A205181C6DA000D29EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8686A207181C6DA000D29EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8686A209181C6DA000D29EF7 /* Mixtable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixtable-Prefix.pch"; sourceTree = "<group>"; };
+		8686A20A181C6DA000D29EF7 /* MixtableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixtableAppDelegate.h; sourceTree = "<group>"; };
+		8686A20B181C6DA000D29EF7 /* MixtableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixtableAppDelegate.m; sourceTree = "<group>"; };
+		8686A20D181C6DA000D29EF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8686A20F181C6DA000D29EF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8686A211181C6DA000D29EF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8686A214181C6DA000D29EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		868E042F184A4CA40029B220 /* MixtablePersonalSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtablePersonalSettingsViewController.h; sourceTree = "<group>"; };
+		868E0430184A4CA40029B220 /* MixtablePersonalSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtablePersonalSettingsViewController.m; sourceTree = "<group>"; };
+		868E0431184A4CA40029B220 /* MixtablePersonalSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtablePersonalSettingsViewController.xib; sourceTree = "<group>"; };
+		868E0434184A4E7E0029B220 /* MixtableMixingSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableMixingSettingsViewController.h; sourceTree = "<group>"; };
+		868E0435184A4E7E0029B220 /* MixtableMixingSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableMixingSettingsViewController.m; sourceTree = "<group>"; };
+		868E0436184A4E7E0029B220 /* MixtableMixingSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableMixingSettingsViewController.xib; sourceTree = "<group>"; };
+		868E0439184A596E0029B220 /* MixtableBasicSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableBasicSettingsViewController.h; sourceTree = "<group>"; };
+		868E043A184A596F0029B220 /* MixtableBasicSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableBasicSettingsViewController.m; sourceTree = "<group>"; };
+		868E043B184A596F0029B220 /* MixtableBasicSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableBasicSettingsViewController.xib; sourceTree = "<group>"; };
+		868E0442184AC15D0029B220 /* swipe-slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-slider.png"; sourceTree = "<group>"; };
+		868E0443184AC15E0029B220 /* swipe-rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-rect.png"; sourceTree = "<group>"; };
+		868F901F1908B8FF003DEECC /* Mixtable-UserBookings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-UserBookings.plist"; sourceTree = "<group>"; };
+		869A303E184803F30086CEAA /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		869A303F184803F30086CEAA /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		869A3040184803F30086CEAA /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		86AB543A190AC3C100D99D1D /* paymill-signet-RGB-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paymill-signet-RGB-orange.png"; sourceTree = "<group>"; };
+		86B8D52418DD2824000B6C12 /* Mixtable-CardsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-CardsData.plist"; sourceTree = "<group>"; };
+		86B8D52618DD2CB3000B6C12 /* Mixtable-Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mixtable-Cities.plist"; sourceTree = "<group>"; };
+		86B8D52B18DD48AD000B6C12 /* MixtableInvitationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableInvitationViewController.h; sourceTree = "<group>"; };
+		86B8D52C18DD48AD000B6C12 /* MixtableInvitationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableInvitationViewController.m; sourceTree = "<group>"; };
+		86B8D52D18DD48AD000B6C12 /* MixtableInvitationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableInvitationViewController.xib; sourceTree = "<group>"; };
+		86CD4B731845123800D7A2DA /* MixtableNSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableNSDateHelper.h; sourceTree = "<group>"; };
+		86CD4B741845123800D7A2DA /* MixtableNSDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableNSDateHelper.m; sourceTree = "<group>"; };
+		86D1640F1842946C008544D3 /* MixtableUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableUser.h; sourceTree = "<group>"; };
+		86D164101842946C008544D3 /* MixtableUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableUser.m; sourceTree = "<group>"; };
+		86D1641518429537008544D3 /* MixtableUserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableUserDataManager.h; sourceTree = "<group>"; };
+		86D1641618429537008544D3 /* MixtableUserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableUserDataManager.m; sourceTree = "<group>"; };
+		86D1641C1842962D008544D3 /* MixtableMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableMenuViewController.h; sourceTree = "<group>"; };
+		86D1641D1842962D008544D3 /* MixtableMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableMenuViewController.m; sourceTree = "<group>"; };
+		86D1641E1842962D008544D3 /* MixtableMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableMenuViewController.xib; sourceTree = "<group>"; };
+		86D1641F1842962D008544D3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		86D164201842962D008544D3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		86D16425184296F1008544D3 /* MixtableFBLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableFBLoginManager.h; sourceTree = "<group>"; };
+		86D16426184296F1008544D3 /* MixtableFBLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableFBLoginManager.m; sourceTree = "<group>"; };
+		86D16427184296F1008544D3 /* MixtableLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableLoginViewController.h; sourceTree = "<group>"; };
+		86D16428184296F1008544D3 /* MixtableLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableLoginViewController.m; sourceTree = "<group>"; };
+		86D16429184296F1008544D3 /* MixtableLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableLoginViewController.xib; sourceTree = "<group>"; };
+		86D1642D18429B6D008544D3 /* MixtableSwipeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableSwipeNavViewController.h; sourceTree = "<group>"; };
+		86D1642E18429B6D008544D3 /* MixtableSwipeNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableSwipeNavViewController.m; sourceTree = "<group>"; };
+		86D1642F18429B6D008544D3 /* MixtableSwipeNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableSwipeNavViewController.xib; sourceTree = "<group>"; };
+		86D2AC1D185E4EFF005385EA /* MixtableTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableTutorialViewController.h; sourceTree = "<group>"; };
+		86D2AC1E185E4EFF005385EA /* MixtableTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableTutorialViewController.m; sourceTree = "<group>"; };
+		86D2AC1F185E4EFF005385EA /* MixtableTutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableTutorialViewController.xib; sourceTree = "<group>"; };
+		86D2AC23185E53C9005385EA /* tutorial-intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-intro.png"; sourceTree = "<group>"; };
+		86D2AC25185E5637005385EA /* tutorial-title-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-title-bg.png"; sourceTree = "<group>"; };
+		86D2AC27185E5736005385EA /* tutorial-date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-date.png"; sourceTree = "<group>"; };
+		86D2AC29185E5891005385EA /* tutorial-cal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-cal.png"; sourceTree = "<group>"; };
+		86D2AC2A185E5891005385EA /* tutorial-glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-glasses.png"; sourceTree = "<group>"; };
+		86D2AC2B185E5891005385EA /* tutorial-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-map.png"; sourceTree = "<group>"; };
+		86D2AC2C185E5891005385EA /* tutorial-mates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-mates.png"; sourceTree = "<group>"; };
+		86D2AC31185E6563005385EA /* landing-fb-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing-fb-login.png"; sourceTree = "<group>"; };
+		86D2AC33185E6722005385EA /* MixtableTutorialPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableTutorialPageViewController.h; sourceTree = "<group>"; };
+		86D2AC34185E6722005385EA /* MixtableTutorialPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableTutorialPageViewController.m; sourceTree = "<group>"; };
+		86D2AC35185E6722005385EA /* MixtableTutorialPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableTutorialPageViewController.xib; sourceTree = "<group>"; };
+		86D2AC39185E6F30005385EA /* MixtableTermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtableTermsViewController.h; sourceTree = "<group>"; };
+		86D2AC3A185E6F30005385EA /* MixtableTermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtableTermsViewController.m; sourceTree = "<group>"; };
+		86D2AC3B185E6F30005385EA /* MixtableTermsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixtableTermsViewController.xib; sourceTree = "<group>"; };
+		86D2AC3E185E79DA005385EA /* app-icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-settings.png"; sourceTree = "<group>"; };
+		86D2AC3F185E79DA005385EA /* app-icon-spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-spotlight.png"; sourceTree = "<group>"; };
+		86D2AC40185E79DA005385EA /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8686A1F5181C6DA000D29EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C14102183AC3870098FEC9 /* Security.framework in Frameworks */,
+				866B4EA71860ED5C0059DAFF /* PayMillSDK.framework in Frameworks */,
+				861371D01839205F0083819D /* QuartzCore.framework in Frameworks */,
+				8686A1FC181C6DA000D29EF7 /* UIKit.framework in Frameworks */,
+				8686A1FE181C6DA000D29EF7 /* Foundation.framework in Frameworks */,
+				8686A200181C6DA000D29EF7 /* CoreGraphics.framework in Frameworks */,
+				865F15FF183AE0D100857878 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C056981842469B00CF07C6 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				52C056991842469B00CF07C6 /* MixtableAPIClient.h */,
+				52C0569A1842469B00CF07C6 /* MixtableAPIClient.m */,
+				52C056D21843AE6B00CF07C6 /* MixtableAPIClientDelegate.h */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		52C0569B1842469B00CF07C6 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				52C0569C1842469B00CF07C6 /* MixtableContactsViewController.h */,
+				52C0569D1842469B00CF07C6 /* MixtableContactsViewController.m */,
+				52C0569E1842469B00CF07C6 /* MixtableContactsViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		52C0569F1842469B00CF07C6 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				52C056A01842469B00CF07C6 /* MixtableDashboardViewController.h */,
+				52C056A11842469B00CF07C6 /* MixtableDashboardViewController.m */,
+				52C056A21842469B00CF07C6 /* MixtableDashboardViewController.xib */,
+				52C056A31842469B00CF07C6 /* MixtableEventsTableCell.h */,
+				52C056A41842469B00CF07C6 /* MixtableEventsTableCell.m */,
+				52C056A51842469B00CF07C6 /* MixtableEventsTableCell.xib */,
+				866C8B121906C4D2001662EA /* MixtableCityViewController.h */,
+				866C8B131906C4D2001662EA /* MixtableCityViewController.m */,
+				866C8B141906C4D2001662EA /* MixtableCityViewController.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		52C056AA1842469B00CF07C6 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				52C056AB1842469B00CF07C6 /* MixtableNotificationsViewController.h */,
+				52C056AC1842469B00CF07C6 /* MixtableNotificationsViewController.m */,
+				52C056AD1842469B00CF07C6 /* MixtableNotificationsViewController.xib */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		52C056AE1842469B00CF07C6 /* SwipeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				86D1642D18429B6D008544D3 /* MixtableSwipeNavViewController.h */,
+				86D1642E18429B6D008544D3 /* MixtableSwipeNavViewController.m */,
+				86D1642F18429B6D008544D3 /* MixtableSwipeNavViewController.xib */,
+				52C056AF1842469B00CF07C6 /* FPNavTitleSwipeView.h */,
+				52C056B01842469B00CF07C6 /* FPNavTitleSwipeView.m */,
+			);
+			path = SwipeNavigation;
+			sourceTree = "<group>";
+		};
+		86106AE6190C54F6003B4B6B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				86106AE7190C551A003B4B6B /* Reachability.h */,
+				86106AE8190C551A003B4B6B /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		864FF3F9184BEA4000CE051C /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				86B8D52A18DD4878000B6C12 /* Invitaion */,
+				866B4E821860EB480059DAFF /* PaymentHelpers */,
+				866B4E831860EB840059DAFF /* PaymentTableCells */,
+				866B4E9B1860EC270059DAFF /* MixtablePaymentManager.h */,
+				866B4E9C1860EC280059DAFF /* MixtablePaymentManager.m */,
+				866B4E9D1860EC280059DAFF /* MixtablePaymentViewController.h */,
+				866B4E9E1860EC280059DAFF /* MixtablePaymentViewController.m */,
+				866B4E9F1860EC280059DAFF /* MixtablePaymentViewController.xib */,
+				864FF3FA184BEA7200CE051C /* MixtableBookingDetailsViewController.h */,
+				864FF3FB184BEA7200CE051C /* MixtableBookingDetailsViewController.m */,
+				864FF3FC184BEA7200CE051C /* MixtableBookingDetailsViewController.xib */,
+				8651C19A1904B6310010007F /* MixtableBookingCancellationViewController.h */,
+				8651C19B1904B6310010007F /* MixtableBookingCancellationViewController.m */,
+				8651C19C1904B6310010007F /* MixtableBookingCancellationViewController.xib */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		866B4E821860EB480059DAFF /* PaymentHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				866B4E841860EBC70059DAFF /* PMCreditCardTypeParser.h */,
+				866B4E851860EBC70059DAFF /* PMCreditCardTypeParser.m */,
+			);
+			name = PaymentHelpers;
+			sourceTree = "<group>";
+		};
+		866B4E831860EB840059DAFF /* PaymentTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				866B4E871860EC090059DAFF /* MixtablePaymentCardHolderCell.h */,
+				866B4E881860EC090059DAFF /* MixtablePaymentCardHolderCell.m */,
+				866B4E891860EC090059DAFF /* MixtablePaymentCardHolderCell.xib */,
+				866B4E8A1860EC090059DAFF /* MixtablePaymentCardNumberCell.h */,
+				866B4E8B1860EC090059DAFF /* MixtablePaymentCardNumberCell.m */,
+				866B4E8C1860EC090059DAFF /* MixtablePaymentCardNumberCell.xib */,
+				866B4E8D1860EC090059DAFF /* MixtablePaymentCodeCell.h */,
+				866B4E8E1860EC090059DAFF /* MixtablePaymentCodeCell.m */,
+				866B4E8F1860EC090059DAFF /* MixtablePaymentCodeCell.xib */,
+				866B4E901860EC090059DAFF /* MixtablePaymentExpireDateCell.h */,
+				866B4E911860EC090059DAFF /* MixtablePaymentExpireDateCell.m */,
+				866B4E921860EC090059DAFF /* MixtablePaymentExpireDateCell.xib */,
+			);
+			name = PaymentTableCells;
+			sourceTree = "<group>";
+		};
+		866B4EA31860ED5C0059DAFF /* PayMillSDK */ = {
+			isa = PBXGroup;
+			children = (
+				866B4EA41860ED5C0059DAFF /* PayMillSDK.bundle */,
+				866B4EA51860ED5C0059DAFF /* PayMillSDK.framework */,
+			);
+			path = PayMillSDK;
+			sourceTree = "<group>";
+		};
+		8682FACB18D502F200F9D3B7 /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8682FACC18D5030300F9D3B7 /* UIImage+ImageEffects.h */,
+				8682FACD18D5030300F9D3B7 /* UIImage+ImageEffects.m */,
+			);
+			name = UIImageEffects;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8682FAE918D554D000F9D3B7 /* MixPix */ = {
+			isa = PBXGroup;
+			children = (
+				8682FAF018D5556A00F9D3B7 /* MixtableMixPixViewController.h */,
+				8682FAF118D5556A00F9D3B7 /* MixtableMixPixViewController.m */,
+				8682FAF218D5556A00F9D3B7 /* MixtableMixPixViewController.xib */,
+			);
+			name = MixPix;
+			sourceTree = "<group>";
+		};
+		8682FAEA18D554DB00F9D3B7 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				8682FAEB18D5550000F9D3B7 /* MixtableFAQViewController.h */,
+				8682FAEC18D5550000F9D3B7 /* MixtableFAQViewController.m */,
+				8682FAED18D5550000F9D3B7 /* MixtableFAQViewController.xib */,
+			);
+			name = FAQ;
+			sourceTree = "<group>";
+		};
+		8686A1EF181C6DA000D29EF7 = {
+			isa = PBXGroup;
+			children = (
+				8686A201181C6DA000D29EF7 /* Mixtable */,
+				8686A1FA181C6DA000D29EF7 /* Frameworks */,
+				8686A1F9181C6DA000D29EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8686A1F9181C6DA000D29EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8686A1F8181C6DA000D29EF7 /* Mixtable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8686A1FA181C6DA000D29EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866B4EA31860ED5C0059DAFF /* PayMillSDK */,
+				865F15FE183AE0D100857878 /* FacebookSDK.framework */,
+				52C14103183AC3920098FEC9 /* SystemConfiguration.framework */,
+				52C14101183AC3870098FEC9 /* Security.framework */,
+				861371CF1839205F0083819D /* QuartzCore.framework */,
+				8686A1FB181C6DA000D29EF7 /* UIKit.framework */,
+				8686A1FD181C6DA000D29EF7 /* Foundation.framework */,
+				8686A1FF181C6DA000D29EF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8686A201181C6DA000D29EF7 /* Mixtable */ = {
+			isa = PBXGroup;
+			children = (
+				8682FAEA18D554DB00F9D3B7 /* FAQ */,
+				8682FAE918D554D000F9D3B7 /* MixPix */,
+				86D2AC38185E6F18005385EA /* TermsAndConditions */,
+				86D2AC1C185E4ED8005385EA /* Tutorial */,
+				864FF3F9184BEA4000CE051C /* Booking */,
+				868E0421184A38FA0029B220 /* Preferences */,
+				86CD4B721845120400D7A2DA /* Helpers */,
+				86D16424184296F1008544D3 /* Login */,
+				86D1641B1842962D008544D3 /* SlideOutMenu */,
+				86D164181842957A008544D3 /* Resources */,
+				86D1640E1842946C008544D3 /* Model */,
+				52C056981842469B00CF07C6 /* APIClient */,
+				52C0569B1842469B00CF07C6 /* Contacts */,
+				52C0569F1842469B00CF07C6 /* Dashboard */,
+				52C056AA1842469B00CF07C6 /* Notifications */,
+				52C056AE1842469B00CF07C6 /* SwipeNavigation */,
+				8686A20A181C6DA000D29EF7 /* MixtableAppDelegate.h */,
+				8686A20B181C6DA000D29EF7 /* MixtableAppDelegate.m */,
+				8686A213181C6DA000D29EF7 /* MainStoryboard.storyboard */,
+				8686A202181C6DA000D29EF7 /* Supporting Files */,
+			);
+			path = Mixtable;
+			sourceTree = "<group>";
+		};
+		8686A202181C6DA000D29EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5247B67C18EB5266007144EB /* Mixtable-Notifications-Config.plist */,
+				5247B67D18EB5266007144EB /* Mixtable-Notifications.plist */,
+				869A303E184803F30086CEAA /* Nunito-Bold.ttf */,
+				869A303F184803F30086CEAA /* Nunito-Light.ttf */,
+				869A3040184803F30086CEAA /* Nunito-Regular.ttf */,
+				86588B491822614F005948F7 /* Cities-c7a963425318174ce68fb7ea7f3312c8.png */,
+				8686A203181C6DA000D29EF7 /* Mixtable-Info.plist */,
+				8686A204181C6DA000D29EF7 /* InfoPlist.strings */,
+				8686A207181C6DA000D29EF7 /* main.m */,
+				8686A209181C6DA000D29EF7 /* Mixtable-Prefix.pch */,
+				8686A20D181C6DA000D29EF7 /* Default.png */,
+				8686A20F181C6DA000D29EF7 /* Default@2x.png */,
+				8686A211181C6DA000D29EF7 /* Default-568h@2x.png */,
+				867689B9184FED36007810B7 /* Mixtable-Config.plist */,
+				8682FAF918D564D900F9D3B7 /* Mixtable-User.plist */,
+				86B8D52618DD2CB3000B6C12 /* Mixtable-Cities.plist */,
+				86B8D52418DD2824000B6C12 /* Mixtable-CardsData.plist */,
+				868F901F1908B8FF003DEECC /* Mixtable-UserBookings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		868E0421184A38FA0029B220 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				52645D1818E4E99900634D1C /* MixtableCell.h */,
+				52645D1918E4E99900634D1C /* MixtableCell.m */,
+				8641624D18CD39E8007F5C14 /* MultiSelectSegmentedControl.h */,
+				8641624E18CD39E8007F5C14 /* MultiSelectSegmentedControl.m */,
+				8641624018CD39C3007F5C14 /* MixtableBasePrefrencesViewController.h */,
+				8641624118CD39C3007F5C14 /* MixtableBasePrefrencesViewController.m */,
+				8641624218CD39C3007F5C14 /* MixtableMultiSegementedControlCell.h */,
+				8641624318CD39C3007F5C14 /* MixtableMultiSegementedControlCell.m */,
+				8641624418CD39C3007F5C14 /* MixtablePickerControlCell.h */,
+				8641624518CD39C3007F5C14 /* MixtablePickerControlCell.m */,
+				8641624618CD39C3007F5C14 /* V8HorizontalPickerView.h */,
+				8641624718CD39C3007F5C14 /* V8HorizontalPickerView.m */,
+				8641624818CD39C3007F5C14 /* V8HorizontalPickerViewProtocol.h */,
+				8641623D18CD394F007F5C14 /* MixtableCustomPickerControlCell.h */,
+				8641623E18CD394F007F5C14 /* MixtableCustomPickerControlCell.m */,
+				868E042F184A4CA40029B220 /* MixtablePersonalSettingsViewController.h */,
+				868E0430184A4CA40029B220 /* MixtablePersonalSettingsViewController.m */,
+				868E0431184A4CA40029B220 /* MixtablePersonalSettingsViewController.xib */,
+				5217A4F51853909500A9C5D5 /* MixtableBasicPreferencesCell.h */,
+				5217A4F61853909500A9C5D5 /* MixtableBasicPreferencesCell.m */,
+				5217A4F9185390A000A9C5D5 /* MixtableSegementedControlCell.h */,
+				5217A4FA185390A000A9C5D5 /* MixtableSegementedControlCell.m */,
+				5217A4FB185390A000A9C5D5 /* MixtableSliderCell.h */,
+				5217A4FC185390A000A9C5D5 /* MixtableSliderCell.m */,
+				868E0434184A4E7E0029B220 /* MixtableMixingSettingsViewController.h */,
+				868E0435184A4E7E0029B220 /* MixtableMixingSettingsViewController.m */,
+				868E0436184A4E7E0029B220 /* MixtableMixingSettingsViewController.xib */,
+				868E0439184A596E0029B220 /* MixtableBasicSettingsViewController.h */,
+				868E043A184A596F0029B220 /* MixtableBasicSettingsViewController.m */,
+				868E043B184A596F0029B220 /* MixtableBasicSettingsViewController.xib */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		86B8D52A18DD4878000B6C12 /* Invitaion */ = {
+			isa = PBXGroup;
+			children = (
+				86B8D52B18DD48AD000B6C12 /* MixtableInvitationViewController.h */,
+				86B8D52C18DD48AD000B6C12 /* MixtableInvitationViewController.m */,
+				86B8D52D18DD48AD000B6C12 /* MixtableInvitationViewController.xib */,
+			);
+			name = Invitaion;
+			sourceTree = "<group>";
+		};
+		86CD4B721845120400D7A2DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8682FACB18D502F200F9D3B7 /* UIImageEffects */,
+				86106AE6190C54F6003B4B6B /* Reachability */,
+				86CD4B731845123800D7A2DA /* MixtableNSDateHelper.h */,
+				86CD4B741845123800D7A2DA /* MixtableNSDateHelper.m */,
+				86106AE3190C144E003B4B6B /* MixtableConfigManager.h */,
+				86106AE4190C144E003B4B6B /* MixtableConfigManager.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		86D1640E1842946C008544D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52C056D41843B36800CF07C6 /* MixtableModelBuilder.h */,
+				52C056D51843B36800CF07C6 /* MixtableModelBuilder.m */,
+				5217A500185393F400A9C5D5 /* MixtableDataManager.h */,
+				5217A501185393F400A9C5D5 /* MixtableDataManager.m */,
+				86D1641518429537008544D3 /* MixtableUserDataManager.h */,
+				86D1641618429537008544D3 /* MixtableUserDataManager.m */,
+				52C520EC18DB434700010670 /* MixtablePaymentDataManager.h */,
+				52C520ED18DB434700010670 /* MixtablePaymentDataManager.m */,
+				52C056DA1844111F00CF07C6 /* MixtableBookingDataManager.h */,
+				52C056DB1844111F00CF07C6 /* MixtableBookingDataManager.m */,
+				52C056D31843B2B600CF07C6 /* MixtableUserDataManagerDelegate.h */,
+				52C520EB18DB42EB00010670 /* MixtablePaymentDataManagerDelegate.h */,
+				52C056DD184411A300CF07C6 /* MixtableBookingDataManagerDelegate.h */,
+				86D1640F1842946C008544D3 /* MixtableUser.h */,
+				86D164101842946C008544D3 /* MixtableUser.m */,
+				52C520E818DB412B00010670 /* MixtablePayment.h */,
+				52C520E918DB412B00010670 /* MixtablePayment.m */,
+				52C056D71844098A00CF07C6 /* MixtableBooking.h */,
+				52C056D81844098B00CF07C6 /* MixtableBooking.m */,
+				520D1B7B18F9A27800E2A989 /* MixtableCityDataManager.h */,
+				520D1B7C18F9A27800E2A989 /* MixtableCityDataManager.m */,
+				520D1B7818F9A21E00E2A989 /* MixtableCity.h */,
+				520D1B7918F9A21E00E2A989 /* MixtableCity.m */,
+				86389B161865D74700F0AF51 /* MixtableEventsFactory.h */,
+				86389B171865D74700F0AF51 /* MixtableEventsFactory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86D164181842957A008544D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86AB543A190AC3C100D99D1D /* paymill-signet-RGB-orange.png */,
+				866C8B101906C368001662EA /* city-arrow@2x.png */,
+				86110DCA19033B6300578243 /* bg-iphone4.jpg */,
+				86110DCB19033B6300578243 /* bg-iphone5.jpg */,
+				86110DCC19033B6300578243 /* fb-box@2x.png */,
+				86110DCD19033B6300578243 /* grey-box@2x.png */,
+				86110DCE19033B6300578243 /* orange-box@2x.png */,
+				86110DCF19033B6300578243 /* twitter-box@2x.png */,
+				8658A8F418EA0FDA005FE5DB /* Notification.png */,
+				8682FAD718D5315F00F9D3B7 /* menu-icon@2x.png */,
+				86D2AC3E185E79DA005385EA /* app-icon-settings.png */,
+				86D2AC3F185E79DA005385EA /* app-icon-spotlight.png */,
+				86D2AC40185E79DA005385EA /* app-icon.png */,
+				86D2AC31185E6563005385EA /* landing-fb-login.png */,
+				524662BE18F19AF40051150C /* indicator@2x.png */,
+				86D2AC29185E5891005385EA /* tutorial-cal.png */,
+				86D2AC2A185E5891005385EA /* tutorial-glasses.png */,
+				86D2AC2B185E5891005385EA /* tutorial-map.png */,
+				86D2AC2C185E5891005385EA /* tutorial-mates.png */,
+				8616859E190832B9008D1DEF /* Pref_Fernseher_new@2x.png */,
+				86D2AC27185E5736005385EA /* tutorial-date.png */,
+				86D2AC25185E5637005385EA /* tutorial-title-bg.png */,
+				86D2AC23185E53C9005385EA /* tutorial-intro.png */,
+				86211241184BB5C4003CB4EF /* emai-icon.png */,
+				86211242184BB5C4003CB4EF /* phone-icon.png */,
+				8658A8F018EA0E6E005FE5DB /* twitter-icon@2x.png */,
+				524662AE18F080600051150C /* Pref_Beer@2x.png */,
+				524662AF18F080600051150C /* Pref_Bomb@2x.png */,
+				524662B118F080600051150C /* Pref_Fussi@2x.png */,
+				524662B218F080600051150C /* Pref_Graduate@2x.png */,
+				524662B318F080600051150C /* Pref_Heart@2x.png */,
+				524662B418F080600051150C /* Pref_Ipad@2x.png */,
+				524662B518F080600051150C /* Pref_Martini@2x.png */,
+				8658A8F218EA0E79005FE5DB /* fb-icon@2x.png */,
+				868E0442184AC15D0029B220 /* swipe-slider.png */,
+				868E0443184AC15E0029B220 /* swipe-rect.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86D1641B1842962D008544D3 /* SlideOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				86D1641C1842962D008544D3 /* MixtableMenuViewController.h */,
+				86D1641D1842962D008544D3 /* MixtableMenuViewController.m */,
+				86D1641E1842962D008544D3 /* MixtableMenuViewController.xib */,
+				86D1641F1842962D008544D3 /* SWRevealViewController.h */,
+				86D164201842962D008544D3 /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenu;
+			sourceTree = "<group>";
+		};
+		86D16424184296F1008544D3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				86D16425184296F1008544D3 /* MixtableFBLoginManager.h */,
+				86D16426184296F1008544D3 /* MixtableFBLoginManager.m */,
+				86D16427184296F1008544D3 /* MixtableLoginViewController.h */,
+				86D16428184296F1008544D3 /* MixtableLoginViewController.m */,
+				86D16429184296F1008544D3 /* MixtableLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		86D2AC1C185E4ED8005385EA /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				86D2AC1D185E4EFF005385EA /* MixtableTutorialViewController.h */,
+				86D2AC1E185E4EFF005385EA /* MixtableTutorialViewController.m */,
+				86D2AC1F185E4EFF005385EA /* MixtableTutorialViewController.xib */,
+				86D2AC33185E6722005385EA /* MixtableTutorialPageViewController.h */,
+				86D2AC34185E6722005385EA /* MixtableTutorialPageViewController.m */,
+				86D2AC35185E6722005385EA /* MixtableTutorialPageViewController.xib */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		86D2AC38185E6F18005385EA /* TermsAndConditions */ = {
+			isa = PBXGroup;
+			children = (
+				86D2AC39185E6F30005385EA /* MixtableTermsViewController.h */,
+				86D2AC3A185E6F30005385EA /* MixtableTermsViewController.m */,
+				86D2AC3B185E6F30005385EA /* MixtableTermsViewController.xib */,
+			);
+			path = TermsAndConditions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8686A1F7181C6DA000D29EF7 /* Mixtable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8686A21B181C6DA000D29EF7 /* Build configuration list for PBXNativeTarget "Mixtable" */;
+			buildPhases = (
+				8686A1F4181C6DA000D29EF7 /* Sources */,
+				8686A1F5181C6DA000D29EF7 /* Frameworks */,
+				8686A1F6181C6DA000D29EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixtable;
+			productName = Mixtable;
+			productReference = 8686A1F8181C6DA000D29EF7 /* Mixtable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8686A1F0181C6DA000D29EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mixtable;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mixtable;
+			};
+			buildConfigurationList = 8686A1F3181C6DA000D29EF7 /* Build configuration list for PBXProject "Mixtable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8686A1EF181C6DA000D29EF7;
+			productRefGroup = 8686A1F9181C6DA000D29EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8686A1F7181C6DA000D29EF7 /* Mixtable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8686A1F6181C6DA000D29EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A3041184804020086CEAA /* Nunito-Bold.ttf in Resources */,
+				869A3042184804020086CEAA /* Nunito-Light.ttf in Resources */,
+				869A3043184804020086CEAA /* Nunito-Regular.ttf in Resources */,
+				866C8B111906C368001662EA /* city-arrow@2x.png in Resources */,
+				524662B618F080600051150C /* Pref_Beer@2x.png in Resources */,
+				867689BA184FED36007810B7 /* Mixtable-Config.plist in Resources */,
+				52C056BD1842469B00CF07C6 /* MixtableDashboardViewController.xib in Resources */,
+				866B4E961860EC090059DAFF /* MixtablePaymentCardNumberCell.xib in Resources */,
+				524662BB18F080600051150C /* Pref_Heart@2x.png in Resources */,
+				86D164221842962D008544D3 /* MixtableMenuViewController.xib in Resources */,
+				86D2AC28185E5736005385EA /* tutorial-date.png in Resources */,
+				86D2AC2E185E5891005385EA /* tutorial-glasses.png in Resources */,
+				524662BD18F080600051150C /* Pref_Martini@2x.png in Resources */,
+				868E0438184A4E7E0029B220 /* MixtableMixingSettingsViewController.xib in Resources */,
+				86B8D52718DD2CB3000B6C12 /* Mixtable-Cities.plist in Resources */,
+				8686A206181C6DA000D29EF7 /* InfoPlist.strings in Resources */,
+				8682FAD818D5315F00F9D3B7 /* menu-icon@2x.png in Resources */,
+				8616859F190832B9008D1DEF /* Pref_Fernseher_new@2x.png in Resources */,
+				866B4E981860EC090059DAFF /* MixtablePaymentCodeCell.xib in Resources */,
+				86D2AC3D185E6F30005385EA /* MixtableTermsViewController.xib in Resources */,
+				86D2AC2F185E5891005385EA /* tutorial-map.png in Resources */,
+				86D2AC21185E4EFF005385EA /* MixtableTutorialViewController.xib in Resources */,
+				868E043D184A596F0029B220 /* MixtableBasicSettingsViewController.xib in Resources */,
+				86110DD019033B6300578243 /* bg-iphone4.jpg in Resources */,
+				86AB543B190AC3C100D99D1D /* paymill-signet-RGB-orange.png in Resources */,
+				86D1643118429B6D008544D3 /* MixtableSwipeNavViewController.xib in Resources */,
+				8682FAFA18D564D900F9D3B7 /* Mixtable-User.plist in Resources */,
+				8658A8F118EA0E6E005FE5DB /* twitter-icon@2x.png in Resources */,
+				86D2AC43185E79DA005385EA /* app-icon.png in Resources */,
+				86588B4A1822614F005948F7 /* Cities-c7a963425318174ce68fb7ea7f3312c8.png in Resources */,
+				866B4EA61860ED5C0059DAFF /* PayMillSDK.bundle in Resources */,
+				8686A20E181C6DA000D29EF7 /* Default.png in Resources */,
+				866B4E9A1860EC090059DAFF /* MixtablePaymentExpireDateCell.xib in Resources */,
+				8686A210181C6DA000D29EF7 /* Default@2x.png in Resources */,
+				868E0433184A4CA40029B220 /* MixtablePersonalSettingsViewController.xib in Resources */,
+				866B4EA21860EC280059DAFF /* MixtablePaymentViewController.xib in Resources */,
+				866C8B161906C4D2001662EA /* MixtableCityViewController.xib in Resources */,
+				86D2AC2D185E5891005385EA /* tutorial-cal.png in Resources */,
+				8651C19E1904B6310010007F /* MixtableBookingCancellationViewController.xib in Resources */,
+				86110DD219033B6300578243 /* fb-box@2x.png in Resources */,
+				868E0444184AC15E0029B220 /* swipe-slider.png in Resources */,
+				866B4E941860EC090059DAFF /* MixtablePaymentCardHolderCell.xib in Resources */,
+				524662BF18F19AF40051150C /* indicator@2x.png in Resources */,
+				86D2AC37185E6722005385EA /* MixtableTutorialPageViewController.xib in Resources */,
+				5247B67F18EB5266007144EB /* Mixtable-Notifications.plist in Resources */,
+				5247B67E18EB5266007144EB /* Mixtable-Notifications-Config.plist in Resources */,
+				524662B718F080600051150C /* Pref_Bomb@2x.png in Resources */,
+				86110DD519033B6300578243 /* twitter-box@2x.png in Resources */,
+				52C056BB1842469B00CF07C6 /* MixtableContactsViewController.xib in Resources */,
+				86110DD319033B6300578243 /* grey-box@2x.png in Resources */,
+				86211243184BB5C4003CB4EF /* emai-icon.png in Resources */,
+				52C056C31842469B00CF07C6 /* MixtableNotificationsViewController.xib in Resources */,
+				8686A212181C6DA000D29EF7 /* Default-568h@2x.png in Resources */,
+				524662B918F080600051150C /* Pref_Fussi@2x.png in Resources */,
+				86D2AC42185E79DA005385EA /* app-icon-spotlight.png in Resources */,
+				8682FAF418D5556A00F9D3B7 /* MixtableMixPixViewController.xib in Resources */,
+				86D2AC32185E6563005385EA /* landing-fb-login.png in Resources */,
+				868E0445184AC15E0029B220 /* swipe-rect.png in Resources */,
+				8686A215181C6DA000D29EF7 /* MainStoryboard.storyboard in Resources */,
+				86D2AC26185E5638005385EA /* tutorial-title-bg.png in Resources */,
+				86211244184BB5C4003CB4EF /* phone-icon.png in Resources */,
+				8658A8F518EA0FDA005FE5DB /* Notification.png in Resources */,
+				86D2AC24185E53C9005385EA /* tutorial-intro.png in Resources */,
+				86B8D52518DD2824000B6C12 /* Mixtable-CardsData.plist in Resources */,
+				868F90201908B8FF003DEECC /* Mixtable-UserBookings.plist in Resources */,
+				8682FAEF18D5550000F9D3B7 /* MixtableFAQViewController.xib in Resources */,
+				86110DD419033B6300578243 /* orange-box@2x.png in Resources */,
+				8658A8F318EA0E79005FE5DB /* fb-icon@2x.png in Resources */,
+				86D1642C184296F1008544D3 /* MixtableLoginViewController.xib in Resources */,
+				524662BA18F080600051150C /* Pref_Graduate@2x.png in Resources */,
+				864FF3FE184BEA7200CE051C /* MixtableBookingDetailsViewController.xib in Resources */,
+				524662BC18F080600051150C /* Pref_Ipad@2x.png in Resources */,
+				86D2AC30185E5891005385EA /* tutorial-mates.png in Resources */,
+				86B8D52F18DD48AD000B6C12 /* MixtableInvitationViewController.xib in Resources */,
+				86D2AC41185E79DA005385EA /* app-icon-settings.png in Resources */,
+				52C056BF1842469B00CF07C6 /* MixtableEventsTableCell.xib in Resources */,
+				86110DD119033B6300578243 /* bg-iphone5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8686A1F4181C6DA000D29EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C520EA18DB412B00010670 /* MixtablePayment.m in Sources */,
+				8641623F18CD394F007F5C14 /* MixtableCustomPickerControlCell.m in Sources */,
+				5217A4FE185390A000A9C5D5 /* MixtableSegementedControlCell.m in Sources */,
+				52C056D61843B36800CF07C6 /* MixtableModelBuilder.m in Sources */,
+				86D2AC20185E4EFF005385EA /* MixtableTutorialViewController.m in Sources */,
+				52C520EE18DB434700010670 /* MixtablePaymentDataManager.m in Sources */,
+				8641624F18CD39E8007F5C14 /* MultiSelectSegmentedControl.m in Sources */,
+				8641624A18CD39C3007F5C14 /* MixtableMultiSegementedControlCell.m in Sources */,
+				866B4E951860EC090059DAFF /* MixtablePaymentCardNumberCell.m in Sources */,
+				868E0437184A4E7E0029B220 /* MixtableMixingSettingsViewController.m in Sources */,
+				86106AE9190C551A003B4B6B /* Reachability.m in Sources */,
+				8686A208181C6DA000D29EF7 /* main.m in Sources */,
+				86CD4B751845123800D7A2DA /* MixtableNSDateHelper.m in Sources */,
+				8686A20C181C6DA000D29EF7 /* MixtableAppDelegate.m in Sources */,
+				864FF3FD184BEA7200CE051C /* MixtableBookingDetailsViewController.m in Sources */,
+				866B4EA11860EC280059DAFF /* MixtablePaymentViewController.m in Sources */,
+				52C056D91844098B00CF07C6 /* MixtableBooking.m in Sources */,
+				5217A4FF185390A000A9C5D5 /* MixtableSliderCell.m in Sources */,
+				866B4E971860EC090059DAFF /* MixtablePaymentCodeCell.m in Sources */,
+				866B4E861860EBC70059DAFF /* PMCreditCardTypeParser.m in Sources */,
+				868E043C184A596F0029B220 /* MixtableBasicSettingsViewController.m in Sources */,
+				8641624B18CD39C3007F5C14 /* MixtablePickerControlCell.m in Sources */,
+				52C056BE1842469B00CF07C6 /* MixtableEventsTableCell.m in Sources */,
+				86389B181865D74700F0AF51 /* MixtableEventsFactory.m in Sources */,
+				86D164231842962D008544D3 /* SWRevealViewController.m in Sources */,
+				52C056C41842469B00CF07C6 /* FPNavTitleSwipeView.m in Sources */,
+				8682FAEE18D5550000F9D3B7 /* MixtableFAQViewController.m in Sources */,
+				86D1642A184296F1008544D3 /* MixtableFBLoginManager.m in Sources */,
+				520D1B7D18F9A27800E2A989 /* MixtableCityDataManager.m in Sources */,
+				52C056DC1844111F00CF07C6 /* MixtableBookingDataManager.m in Sources */,
+				8682FAF318D5556A00F9D3B7 /* MixtableMixPixViewController.m in Sources */,
+				8641624918CD39C3007F5C14 /* MixtableBasePrefrencesViewController.m in Sources */,
+				86D1643018429B6D008544D3 /* MixtableSwipeNavViewController.m in Sources */,
+				866B4E931860EC090059DAFF /* MixtablePaymentCardHolderCell.m in Sources */,
+				86106AE5190C144E003B4B6B /* MixtableConfigManager.m in Sources */,
+				520D1B7A18F9A21E00E2A989 /* MixtableCity.m in Sources */,
+				866B4E991860EC090059DAFF /* MixtablePaymentExpireDateCell.m in Sources */,
+				86D2AC3C185E6F30005385EA /* MixtableTermsViewController.m in Sources */,
+				86D1642B184296F1008544D3 /* MixtableLoginViewController.m in Sources */,
+				52C056BC1842469B00CF07C6 /* MixtableDashboardViewController.m in Sources */,
+				866C8B151906C4D2001662EA /* MixtableCityViewController.m in Sources */,
+				86D1641718429537008544D3 /* MixtableUserDataManager.m in Sources */,
+				8651C19D1904B6310010007F /* MixtableBookingCancellationViewController.m in Sources */,
+				86D2AC36185E6722005385EA /* MixtableTutorialPageViewController.m in Sources */,
+				5217A502185393F400A9C5D5 /* MixtableDataManager.m in Sources */,
+				52645D1A18E4E99900634D1C /* MixtableCell.m in Sources */,
+				866B4EA01860EC280059DAFF /* MixtablePaymentManager.m in Sources */,
+				5217A4F71853909500A9C5D5 /* MixtableBasicPreferencesCell.m in Sources */,
+				86B8D52E18DD48AD000B6C12 /* MixtableInvitationViewController.m in Sources */,
+				86D164111842946C008544D3 /* MixtableUser.m in Sources */,
+				8641624C18CD39C3007F5C14 /* V8HorizontalPickerView.m in Sources */,
+				52C056B91842469B00CF07C6 /* MixtableAPIClient.m in Sources */,
+				52C056BA1842469B00CF07C6 /* MixtableContactsViewController.m in Sources */,
+				8682FACE18D5030300F9D3B7 /* UIImage+ImageEffects.m in Sources */,
+				868E0432184A4CA40029B220 /* MixtablePersonalSettingsViewController.m in Sources */,
+				86D164211842962D008544D3 /* MixtableMenuViewController.m in Sources */,
+				52C056C21842469B00CF07C6 /* MixtableNotificationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8686A204181C6DA000D29EF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686A205181C6DA000D29EF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8686A213181C6DA000D29EF7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686A214181C6DA000D29EF7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8686A219181C6DA000D29EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wessam Abdrabo (23SR84933D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wessam Abdrabo (23SR84933D)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8686A21A181C6DA000D29EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wessam Abdrabo (23SR84933D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wessam Abdrabo (23SR84933D)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8686A21C181C6DA000D29EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixtable/Mixtable-Prefix.pch";
+				INFOPLIST_FILE = "Mixtable/Mixtable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8686A21D181C6DA000D29EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixtable/Mixtable-Prefix.pch";
+				INFOPLIST_FILE = "Mixtable/Mixtable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8686A1F3181C6DA000D29EF7 /* Build configuration list for PBXProject "Mixtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686A219181C6DA000D29EF7 /* Debug */,
+				8686A21A181C6DA000D29EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8686A21B181C6DA000D29EF7 /* Build configuration list for PBXNativeTarget "Mixtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686A21C181C6DA000D29EF7 /* Debug */,
+				8686A21D181C6DA000D29EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8686A1F0181C6DA000D29EF7 /* Project object */;
+}

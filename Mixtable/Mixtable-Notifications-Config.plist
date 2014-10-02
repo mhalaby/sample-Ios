@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MixtableNotificationCounter</key>
+	<integer>0</integer>
+	<key>welcomeNotification</key>
+	<dict>
+		<key>msg</key>
+		<string>Hi [Firstname]! Thanks for getting the Mixtable App. We are looking forward to set up drinks between you and another group for an awesome night out ;-)</string>
+		<key>active</key>
+		<true/>
+		<key>type</key>
+		<string>INFO</string>
+	</dict>
+	<key>bookingNotification</key>
+	<dict>
+		<key>msg</key>
+		<string>Thanks for booking a Mixtable. We&apos;ll send you an email with the information about the bar one day before your Mixtable</string>
+		<key>active</key>
+		<true/>
+		<key>type</key>
+		<string>INFO</string>
+	</dict>
+	<key>completePrefNotification</key>
+	<dict>
+		<key>msg</key>
+		<string>Before you can book, you&apos;ll need to complete your **preferences**, without this we can&apos;t match you with cool people.</string>
+		<key>active</key>
+		<true/>
+		<key>type</key>
+		<string>ACTION_REQUIRED</string>
+		<key>event</key>
+		<string>GOTO_PREF</string>
+	</dict>
+</dict>
+</plist>
